@@ -1,0 +1,176 @@
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+Process Process-2:
+Process Process-3:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+Process Process-5:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+Process Process-4:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+Process Process-6:
+Process Process-7:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
+Process Process-8:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 57, in worker
+    h = hash_msg(prefix)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 46, in hash_msg
+    vec = mat_vec_mul(mat, vec)
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in mat_vec_mul
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fkey/ctf/greyCtf/dist-not-a-permutation-matrix/parallel_solver.py", line 36, in <genexpr>
+    reduce(lambda x, y: x*y, (a^b for a, b in zip(vec, row)))
+                              ~^~
+  File "sage/structure/element.pyx", line 951, in sage.structure.element.Element.__xor__ (build/cythonized/sage/structure/element.c:14979)
+    raise RuntimeError("Use ** for exponentiation, not '^', which means xor\n"
+RuntimeError: Use ** for exponentiation, not '^', which means xor
+in Python, and has the wrong precedence.
