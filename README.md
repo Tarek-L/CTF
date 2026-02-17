@@ -17,3 +17,7 @@ A CTF challenges collection
 [osint](https://github.com/Tarek-L/osint)
 
 ---
+
+[misc](https://github.com/Tarek-L/misc)
+
+---
